@@ -22,7 +22,7 @@ repository               : "dundzena/dundzena.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "undzenas.jpg"
   name             : "Domantas Undzėnas"
   pronouns         : # example: "she/her"
   bio              : "Postdoctoral Research Associate in Comparative Politics at Goethe University Frankfurt. Researching political values, discrimination, inequalities, and democratic attitudes."
