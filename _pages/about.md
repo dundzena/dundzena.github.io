@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Research Associate at the Chair of Comparative Politics, at the [Goethe University Frankfurt](https://www.goethe-university-frankfurt.de/). My research connects political science and psycholgy. I am especially interested in what drives value change and how this can affect intergroup relations, radicalisation, and political behaviour. Additionally, I am interested in attitudes towards politicians and democracy in general. My regional focus is on North America, Western Europe, and Eastern Europe. 
+I am a Postdoctoral Research Associate at the Chair of Comparative Politics, at the [Goethe University Frankfurt](https://www.goethe-university-frankfurt.de/). My research connects political science and psychology. I am especially interested in what drives value change and how this can affect intergroup relations, radicalisation, and political behaviour. Additionally, I am interested in attitudes towards politicians and democracy in general. My regional focus is on North America, Western Europe, and Eastern Europe. 
 
 Methodologically, I work with causal inference designs and advanced methods utilising frequentist statistics, Bayesian statistics, and machine learning.
 
