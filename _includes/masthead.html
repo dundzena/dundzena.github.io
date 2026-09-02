@@ -19,9 +19,9 @@
             </li>
           {% endfor %}
           <li class="masthead__menu-item persist">
-            {% if page.url contains '/lt/' %}
-              <a href="{{ page.url | replace: '/lt/', '/' }}" style="white-space: nowrap;">🇬🇧 English</a>
-            {% elsif page.url == '/' or page.url == '/cv/' or page.url == '/teaching/' %}
+            {% if page.url contains '/lt' %}
+              <a href="{{ page.url | remove_first: '/lt' | prepend: '/' | replace: '//', '/' }}" style="white-space: nowrap;">🇬🇧 English</a>
+            {% elsif page.url == '/cv/' or page.url == '/teaching/' %}
               <a href="/lt{{ page.url }}" style="white-space: nowrap;">🇱🇹 Lietuviškai</a>
             {% else %}
               <a href="/lt/" style="white-space: nowrap;">🇱🇹 Lietuviškai</a>
