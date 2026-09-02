@@ -22,8 +22,6 @@ Positions
 Education
 ======
 * **2022 – 2026**: Doctorate in Political Science, University of Mannheim
-  * Supervisors: Thomas Gschwend and Richard Traunmüller
-  * Dissertation: *Short-term Changes in Preferences for Hierarchy and Their Political Consequences*
 * **2020 – 2022**: M.A. in Political Science, University of Mannheim
 * **2017 – 2020**: B.A. in International Relations with Quantitative Research Methods, University of Leeds
 
