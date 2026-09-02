@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "Teaching"
-permalink: /teaching/
+title: "Dėstymas"
+permalink: /lt/teaching/
 author_profile: true
 ---
 
-*🇱🇹 [Lietuviškai](/lt/teaching/)*
+*🇬🇧 [In English](/teaching/)*
 
 {% include base_path %}
 

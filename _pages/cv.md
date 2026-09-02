@@ -29,8 +29,26 @@ Education
 
 Publications
 ======
+
+**Journal Articles & Book Chapters**
+
   <ul>{% for post in site.publications reversed %}
+    {% if post.category != 'manuscripts' %}{% continue %}{% endif %}
     {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+**Under Review**
+
+  <ul>{% for post in site.publications reversed %}
+    {% if post.category != 'under_review' %}{% continue %}{% endif %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+**Working Papers**
+
+  <ul>{% for post in site.publications reversed %}
+    {% if post.category != 'working_papers' %}{% continue %}{% endif %}
+    <li><em>{{ post.title }}</em>{% if post.citation %} — {{ post.citation }}{% endif %}</li>
   {% endfor %}</ul>
 
 Teaching

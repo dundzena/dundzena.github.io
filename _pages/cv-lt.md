@@ -27,8 +27,26 @@ Išsilavinimas
 
 Publikacijos
 ======
+
+**Žurnalo straipsniai ir knygų skyriai**
+
   <ul>{% for post in site.publications reversed %}
+    {% if post.category != 'manuscripts' %}{% continue %}{% endif %}
     {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+**Recenzuojama**
+
+  <ul>{% for post in site.publications reversed %}
+    {% if post.category != 'under_review' %}{% continue %}{% endif %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+**Darbo straipsniai**
+
+  <ul>{% for post in site.publications reversed %}
+    {% if post.category != 'working_papers' %}{% continue %}{% endif %}
+    <li><em>{{ post.title }}</em>{% if post.citation %} — {{ post.citation }}{% endif %}</li>
   {% endfor %}</ul>
 
 Dėstymas

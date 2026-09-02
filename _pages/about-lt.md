@@ -12,4 +12,4 @@ Daktaro disertaciją politikos mokslo srityje apgyniau [Manheimo universitete](h
 
 **Metodologiškai** dirbu su priežastinio išvedimo metodais (natūralūs eksperimentai, regresinė diskontinuacija, skirtumų-skirtumų metodas, apklausų ir laboratoriniai eksperimentai), mašininiu mokymusi, Bajeso statistika, paneliniais duomenimis ir Monte Karlo simuliacijomis.
 
-Visą publikacijų sąrašą, pranešimų ir dėstymo istoriją galite rasti šioje svetainėje. CV galima parsisiųsti [čia](/files/Undzenas_CV.pdf).
+Visą [publikacijų sąrašą](/publications/), [dėstymo istoriją](/lt/teaching/) ir [gyvenimo aprašymą](/lt/cv/) galite rasti šioje svetainėje. CV galima parsisiųsti [čia](/files/Undzenas_CV.pdf).
