@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-*🇱🇹 [Lietuviškai](/lt/cv/)* &nbsp;|&nbsp; PDF: [download](/files/Undzenas_CV.pdf)
+PDF: [download](/files/Undzenas_CV.pdf)
 
 ---
 
@@ -66,15 +66,4 @@ Skills
 * **Software**: RStudio, VS Code, Jupyter Notebooks, Stata, LaTeX, Git
 * **Natural languages**: Lithuanian (C2), English (C2), German (A2)
 
-Service and Leadership
-======
-* **Reviewer**: British Journal of Political Science, Party Politics, Conflict Management and Peace Science, Politologija, Politische Vierteljahresschrift
-* **2022 – 2026**: Student representative, Center for Doctoral Studies in Social and Behavioral Sciences, University of Mannheim
-* **Memberships**: European Political Science Society (EPSS), European Consortium for Political Research (ECPR), Political Studies Association (PSA)
 
-Awards and Grants
-======
-* **2025**: Travel grants for EPOP 2025, ECPR Extremism and Democracy Conference, University of Kent Social Psychology Seminar
-* **2024**: Travel grants for EPSA 2024, UK Political Psychology Conference
-* **2023**: Research grant for dissertation data collection, supported by the DFG (TR1334/3-1); travel grant for ECPR 2023
-* **2021**: Associate membership, University of Mannheim Graduate School of Economic and Social Sciences

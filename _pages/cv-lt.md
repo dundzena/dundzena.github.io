@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-*🇬🇧 [In English](/cv/)* &nbsp;|&nbsp; PDF: [parsisiųsti](/files/Undzenas_CV.pdf)
+PDF: [parsisiųsti](/files/Undzenas_CV.pdf)
 
 ---
 
@@ -64,15 +64,4 @@ Kompetencijos
 * **Programinė įranga**: RStudio, VS Code, Jupyter Notebooks, Stata, LaTeX, Git
 * **Kalbos**: Lietuvių (C2), anglų (C2), vokiečių (A2)
 
-Tarnystė ir lyderystė
-======
-* **Recenzentų veikla**: British Journal of Political Science, Party Politics, Conflict Management and Peace Science, Politologija, Politische Vierteljahresschrift
-* **2022 – 2026**: Doktorantų atstovas, Socialinių ir elgesio mokslų doktorantūros studijų centras, Manheimo universitetas
-* **Narystės**: Europos politikos mokslų draugija (EPSS), Europos politinių tyrimų konsorciumas (ECPR), Politikos studijų asociacija (PSA)
 
-Apdovanojimai ir dotacijos
-======
-* **2025**: Kelionių dotacijos – EPOP 2025, ECPR Ekstremizmo ir demokratijos konferencija, Kento universiteto Socialinės psichologijos seminaras
-* **2024**: Kelionių dotacijos – EPSA 2024, JK Politinės psichologijos konferencija
-* **2023**: Tyrimų dotacija disertacijos duomenų rinkimui, remiama DFG (TR1334/3-1); kelionių dotacija ECPR 2023
-* **2021**: Asocijuota narystė, Manheimo universiteto Ekonomikos ir socialinių mokslų aukštoji mokykla
