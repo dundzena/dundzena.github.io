@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Domantas Undzėnas"
 title_separator          : "-"
 name                     : &name "Domantas Undzėnas"
-description              : &description "Domantas Undzėnas – "Political Psychologist"
+description              : &description "Domantas Undzėnas – Political Psychologist"
 url                      : https://dundzena.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dundzena/dundzena.github.io"

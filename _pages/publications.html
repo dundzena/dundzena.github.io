@@ -7,28 +7,35 @@ author_profile: true
 
 {% include base_path %}
 
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% if category[0] == 'working_papers' %}
-        {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-        <div class="list__item">
-          <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-            <h2 class="archive__item-title" itemprop="headline">{{ title }}</h2>
-            {% if post.citation %}<p>{{ post.citation }}</p>{% endif %}
-          </article>
-        </div>
-      {% else %}
-        {% include archive-single.html %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-{% endif %}
+<h2>Journal Articles &amp; Book Chapters</h2>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.category != 'manuscripts' %}{% continue %}{% endif %}
+  <li>
+    {% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}<br>
+    {{ post.citation }}
+  </li>
+{% endfor %}
+</ul>
+
+<h2>Under Review</h2>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.category != 'under_review' %}{% continue %}{% endif %}
+  <li>
+    {% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}<br>
+    {{ post.citation }}
+  </li>
+{% endfor %}
+</ul>
+
+<h2>Working Papers</h2>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.category != 'working_papers' %}{% continue %}{% endif %}
+  <li>
+    <em>{{ post.title }}</em><br>
+    {{ post.citation }}
+  </li>
+{% endfor %}
+</ul>

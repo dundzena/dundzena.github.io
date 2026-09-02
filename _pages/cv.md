@@ -22,6 +22,8 @@ Positions
 Education
 ======
 * **2022 – 2026**: Doctorate in Political Science, University of Mannheim
+  * Supervisors: Thomas Gschwend and Richard Traunmüller
+  * Dissertation: *Short-term Changes in Preferences for Hierarchy and Their Political Consequences*
 * **2020 – 2022**: M.A. in Political Science, University of Mannheim
 * **2017 – 2020**: B.A. in International Relations with Quantitative Research Methods, University of Leeds
 
@@ -30,30 +32,39 @@ Publications
 
 **Journal Articles & Book Chapters**
 
-  <ul>{% for post in site.publications reversed %}
-    {% if post.category != 'manuscripts' %}{% continue %}{% endif %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.category != 'manuscripts' %}{% continue %}{% endif %}
+  <li>{% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}<br>{{ post.citation }}</li>
+{% endfor %}
+</ul>
 
 **Under Review**
 
-  <ul>{% for post in site.publications reversed %}
-    {% if post.category != 'under_review' %}{% continue %}{% endif %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.category != 'under_review' %}{% continue %}{% endif %}
+  <li>{% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}<br>{{ post.citation }}</li>
+{% endfor %}
+</ul>
 
 **Working Papers**
 
-  <ul>{% for post in site.publications reversed %}
-    {% if post.category != 'working_papers' %}{% continue %}{% endif %}
-    <li><em>{{ post.title }}</em>{% if post.citation %} — {{ post.citation }}{% endif %}</li>
-  {% endfor %}</ul>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.category != 'working_papers' %}{% continue %}{% endif %}
+  <li><em>{{ post.title }}</em><br>{{ post.citation }}</li>
+{% endfor %}
+</ul>
 
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+<ul>
+{% for post in site.teaching reversed %}
+  <li><strong>{{ post.title }}</strong> ({{ post.type }}), {{ post.venue }}.<br>{{ post.content | strip_html | strip }}</li>
+{% endfor %}
+</ul>
 
 Skills
 ======
@@ -63,5 +74,3 @@ Skills
 * **Data visualisation**: ggplot2, Base R, Matplotlib, Seaborn, Stata
 * **Software**: RStudio, VS Code, Jupyter Notebooks, Stata, LaTeX, Git
 * **Natural languages**: Lithuanian (C2), English (C2), German (A2)
-
-

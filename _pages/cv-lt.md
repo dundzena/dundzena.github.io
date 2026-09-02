@@ -30,30 +30,39 @@ Publikacijos
 
 **Žurnalo straipsniai ir knygų skyriai**
 
-  <ul>{% for post in site.publications reversed %}
-    {% if post.category != 'manuscripts' %}{% continue %}{% endif %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.category != 'manuscripts' %}{% continue %}{% endif %}
+  <li>{% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}<br>{{ post.citation }}</li>
+{% endfor %}
+</ul>
 
 **Recenzuojama**
 
-  <ul>{% for post in site.publications reversed %}
-    {% if post.category != 'under_review' %}{% continue %}{% endif %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.category != 'under_review' %}{% continue %}{% endif %}
+  <li>{% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}<br>{{ post.citation }}</li>
+{% endfor %}
+</ul>
 
 **Darbo straipsniai**
 
-  <ul>{% for post in site.publications reversed %}
-    {% if post.category != 'working_papers' %}{% continue %}{% endif %}
-    <li><em>{{ post.title }}</em>{% if post.citation %} — {{ post.citation }}{% endif %}</li>
-  {% endfor %}</ul>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.category != 'working_papers' %}{% continue %}{% endif %}
+  <li><em>{{ post.title }}</em><br>{{ post.citation }}</li>
+{% endfor %}
+</ul>
 
 Dėstymas
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+<ul>
+{% for post in site.teaching reversed %}
+  <li><strong>{{ post.title }}</strong> ({{ post.type }}), {{ post.venue }}.<br>{{ post.content | strip_html | strip }}</li>
+{% endfor %}
+</ul>
 
 Kompetencijos
 ======
@@ -63,5 +72,3 @@ Kompetencijos
 * **Duomenų vizualizacija**: ggplot2, R, Matplotlib, Seaborn, Stata
 * **Programinė įranga**: RStudio, VS Code, Jupyter Notebooks, Stata, LaTeX, Git
 * **Kalbos**: Lietuvių (C2), anglų (C2), vokiečių (A2)
-
-
