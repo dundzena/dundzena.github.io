@@ -20,11 +20,11 @@
           {% endfor %}
           <li class="masthead__menu-item persist">
             {% if page.url contains '/lt/' %}
-              <a href="{{ page.url | replace: '/lt/', '/' }}" style="white-space: nowrap;">🇱🇹 Lietuviškai</a>
+              <a href="{{ page.url | replace: '/lt/', '/' }}" style="white-space: nowrap;">🇬🇧 English</a>
             {% elsif page.url == '/' or page.url == '/cv/' or page.url == '/teaching/' %}
-              <a href="/lt{{ page.url }}" style="white-space: nowrap;">🇬🇧 English</a>
+              <a href="/lt{{ page.url }}" style="white-space: nowrap;">🇱🇹 Lietuviškai</a>
             {% else %}
-              <a href="/lt/" style="white-space: nowrap;">🇬🇧 English</a>
+              <a href="/lt/" style="white-space: nowrap;">🇱🇹 Lietuviškai</a>
             {% endif %}
           </li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
