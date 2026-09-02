@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "contrast" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Domantas Undzėnas"
 title_separator          : "-"
 name                     : &name "Domantas Undzėnas"
-description              : &description "Domantas Undzėnas – Political Scientist"
+description              : &description "Domantas Undzėnas – "Political Psychologist"
 url                      : https://dundzena.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dundzena/dundzena.github.io"
@@ -25,16 +25,16 @@ author:
   avatar           : "undzenas.jpg"
   name             : "Domantas Undzėnas"
   pronouns         : # example: "she/her"
-  bio              : "Postdoctoral Research Associate in Comparative Politics at Goethe University Frankfurt. Researching political values, discrimination, inequalities, and democratic attitudes."
+  bio              : "Postdoctoral Research Associate in Comparative Politics at Goethe University Frankfurt."
   location         : "Frankfurt, Germany"
   employer         : "Goethe University Frankfurt"
   uri              : # URL
-  email            : "domantas.undzenas@uni-mannheim.de"
+  email            : "undzenas@soz.uni-frankfurt.de"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL
-  googlescholar    : # URL
+  googlescholar    : "https://scholar.google.com/citations?user=dL3lTIkAAAAJ&hl" # URL
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0003-1420-578X"

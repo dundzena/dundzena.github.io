@@ -7,10 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Research Associate at the Chair of Comparative Politics, [Goethe University Frankfurt](https://www.goethe-university-frankfurt.de/). My research sits at the intersection of political psychology and comparative politics, with a focus on political values, discrimination, inequalities, and democratic attitudes.
+I am a Postdoctoral Research Associate at the Chair of Comparative Politics, at the [Goethe University Frankfurt](https://www.goethe-university-frankfurt.de/). My research connects political science and psycholgy. I am especially interested in what drives value change and how this can affect intergroup relations, radicalisation, and political behaviour. Additionally, I am interested in attitudes towards politicians and democracy in general. My regional focus is on North America, Western Europe, and Eastern Europe. 
 
-I completed my doctorate in Political Science at the [University of Mannheim](https://www.uni-mannheim.de/) (2022–2026), supervised by [Thomas Gschwend](https://www.sowi.uni-mannheim.de/gschwend/) and [Richard Traunmüller](https://traunmueller.eu/). My dissertation, *Short-term Changes in Preferences for Hierarchy and Their Political Consequences*, examines how and why authoritarian and hierarchical preferences shift in response to political events, and what consequences those shifts have for political behavior.
+Methodologically, I work with causal inference designs and advanced methods utilising frequentist statistics, Bayesian statistics, and machine learning.
 
-**Methodologically**, I work with causal inference strategies (natural experiments, regression discontinuity, difference-in-differences, survey and lab experiments), machine learning, Bayesian statistics, panel data, and Monte Carlo simulations.
+I completed my doctorate in Political Science at the [University of Mannheim](https://www.uni-mannheim.de/), where I also did my Master's. For my Bachelor's I studied at the [University of Leeds](https://www.leeds.ac.uk/)
 
-A full list of my publications, talks, and teaching is available on this site, and my CV is available [here](/files/Undzenas_CV.pdf).
+My work has been published in the *The British Journal of Politics and International Relations*, *Humanities and Social Sciences Communications*, and the *Journal of Elections, Public Opinion and Parties*.
+
+
+
