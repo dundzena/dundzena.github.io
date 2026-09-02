@@ -1,0 +1,60 @@
+---
+layout: archive
+title: "Gyvenimo aprašymas"
+permalink: /lt/cv/
+author_profile: true
+---
+
+{% include base_path %}
+
+*🇬🇧 [In English](/cv/)* &nbsp;|&nbsp; PDF: [parsisiųsti](/files/Undzenas_CV.pdf)
+
+---
+
+Pareigos
+======
+* **2026 – dabar**: Podoktorantūros mokslinis bendradarbis, Lyginamosios politikos katedra, Goethe'o universitetas Frankfurte
+* **2022 – 2026**: Mokslinis bendradarbis, Kiekybinių socialinių mokslų metodų katedra, Manheimo universitetas
+* **2021 – 2022**: Mokslinis asistentas, Ekonometrikos katedra, Manheimo universitetas
+
+Išsilavinimas
+======
+* **2022 – 2026**: Politikos mokslų daktaras, Manheimo universitetas
+  * Vadovai: Thomas Gschwend ir Richard Traunmüller
+  * Disertacija: *Trumpalaikiai hierarchijos preferencijų pokyčiai ir jų politinės pasekmės*
+* **2020 – 2022**: Politikos mokslų magistras, Manheimo universitetas
+* **2017 – 2020**: Tarptautinių santykių su kiekybiniais tyrimo metodais bakalauras, Lidso universitetas
+
+Publikacijos
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Dėstymas
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Kompetencijos
+======
+* **Programavimas**: R, Python, SQL
+* **Statistika**: MKI, didžiausio tikėtinumo metodas, Bajeso statistika, neparametrinė statistika, daugialypiai modeliai, atsitiktiniai miškai, neuroniniai tinklai, struktūrinė temų modeliacija, Monte Karlo simuliacijos, struktūrinės lygčių modeliai, tinklo analizė
+* **Tyrimo dizainas**: Apklausų eksperimentai, laboratoriniai eksperimentai, regresinė diskontinuacija, instrumentiniai kintamieji, netikėti įvykiai apklausos metu, skirtumų-skirtumų metodas, derinimas
+* **Duomenų vizualizacija**: ggplot2, R, Matplotlib, Seaborn, Stata
+* **Programinė įranga**: RStudio, VS Code, Jupyter Notebooks, Stata, LaTeX, Git
+* **Kalbos**: Lietuvių (C2), anglų (C2), vokiečių (A2)
+
+Tarnystė ir lyderystė
+======
+* **Recenzentų veikla**: British Journal of Political Science, Party Politics, Conflict Management and Peace Science, Politologija, Politische Vierteljahresschrift
+* **2022 – 2026**: Doktorantų atstovas, Socialinių ir elgesio mokslų doktorantūros studijų centras, Manheimo universitetas
+* **Narystės**: Europos politikos mokslų draugija (EPSS), Europos politinių tyrimų konsorciumas (ECPR), Politikos studijų asociacija (PSA)
+
+Apdovanojimai ir dotacijos
+======
+* **2025**: Kelionių dotacijos – EPOP 2025, ECPR Ekstremizmo ir demokratijos konferencija, Kento universiteto Socialinės psichologijos seminaras
+* **2024**: Kelionių dotacijos – EPSA 2024, JK Politinės psichologijos konferencija
+* **2023**: Tyrimų dotacija disertacijos duomenų rinkimui, remiama DFG (TR1334/3-1); kelionių dotacija ECPR 2023
+* **2021**: Asocijuota narystė, Manheimo universiteto Ekonomikos ir socialinių mokslų aukštoji mokykla

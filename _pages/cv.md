@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-A PDF version of my CV is available [here](/files/Undzenas_CV.pdf).
+*🇱🇹 [Lietuviškai](/lt/cv/)* &nbsp;|&nbsp; PDF: [download](/files/Undzenas_CV.pdf)
 
 ---
 
