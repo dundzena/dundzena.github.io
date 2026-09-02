@@ -19,7 +19,13 @@
             </li>
           {% endfor %}
           <li class="masthead__menu-item persist">
-            <a id="lang-toggle" href="/lt/" style="white-space: nowrap;">🇬🇧 English</a>
+            {% if page.url contains '/lt/' %}
+              <a href="{{ page.url | replace: '/lt/', '/' }}" style="white-space: nowrap;">🇱🇹 Lietuviškai</a>
+            {% elsif page.url == '/' or page.url == '/cv/' or page.url == '/teaching/' %}
+              <a href="/lt{{ page.url }}" style="white-space: nowrap;">🇬🇧 English</a>
+            {% else %}
+              <a href="/lt/" style="white-space: nowrap;">🇬🇧 English</a>
+            {% endif %}
           </li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
