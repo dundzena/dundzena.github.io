@@ -1,13 +1,13 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
 <script>
-(function () {
-  var langLink = document.querySelector('.greedy-nav a[href*="lang-switch"]');
+window.addEventListener('load', function () {
+  var langLink = document.getElementById('lang-toggle');
   if (!langLink) return;
 
   var path = window.location.pathname;
 
-  // Map English paths to their Lithuanian equivalents
+  // Map each English path to its Lithuanian equivalent
   var ltVersions = {
     '/':          '/lt/',
     '/cv/':       '/lt/cv/',
@@ -16,17 +16,17 @@
   };
 
   if (path.startsWith('/lt')) {
-    // On a Lithuanian page — offer English
+    // On a Lithuanian page — strip /lt prefix to get the English path
     var enPath = path.replace(/^\/lt/, '') || '/';
     langLink.setAttribute('href', enPath);
     langLink.textContent = '🇬🇧 English';
   } else {
-    // On an English page — offer Lithuanian
+    // On an English page — look up the Lithuanian equivalent
     var ltPath = ltVersions[path] || '/lt/';
     langLink.setAttribute('href', ltPath);
     langLink.textContent = '🇱🇹 Lietuviškai';
   }
-})();
+});
 </script>
 
 {% include analytics.html %}
